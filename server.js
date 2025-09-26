@@ -54,7 +54,7 @@ app.get('/projects', (req, res) => {
     });
 });
 
-app.use((req, res) => {
+app.all('*', (req, res) => {
     res.status(404).render('404', {
         titulo: "404 - Página No Encontrada",
         mensaje: "Lo sentimos, la página que buscas no existe."
