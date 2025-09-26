@@ -1,0 +1,8 @@
+# Dependencias de Node
+node_modules/
+
+# Lock file
+package-lock.json
+
+# Carpeta de imágenes
+public/img/

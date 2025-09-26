@@ -1,0 +1,18 @@
+<h1>{{nombre}}</h1>
+<h2>{{titulo}}</h2>
+
+<p class="intro">
+  Soy desarrolladora web y este es mi portafolio personal. Aquí puedes ver algunos de mis proyectos destacados y conocer más sobre mi experiencia y habilidades en desarrollo web.
+</p>
+
+<h2>Proyectos Destacados</h2>
+
+<ul class="projects-list">
+  {{#each proyectos}}
+    <li class="project-item">
+      <h3>{{titulo}}</h3>
+      <p>{{descripcion}}</p>
+      <a href="/projects" class="btn">Ver más</a>
+    </li>
+  {{/each}}
+</ul>
